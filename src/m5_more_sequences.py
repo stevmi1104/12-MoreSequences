@@ -164,7 +164,6 @@ def count_last_n_odds(integers, n):
             if integers[-k+len(integers)-1] % 2 == 1:
                 total = total + 1
     return total
-
 ###############################################################################
 # Some problems iterate (loop) through PART of the sequence,
 # stopping when the loop FINDS something of interest
